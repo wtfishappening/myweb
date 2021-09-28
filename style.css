@@ -1,0 +1,39 @@
+.navbar ul {
+background-color:pink;
+overflow: auto;
+padding: 20px;
+border-radius: 50px;
+list-style: none;
+font-family: cursive;
+}
+.navbar li {
+    float: left;
+    margin: 5px 30px;
+    font-size: 30px;
+    
+}
+.navbar li a {
+    text-decoration: none;
+    color:black ;
+    
+}
+.navbar li a:hover{
+   color: black;
+   background-color: turquoise;
+transition: ease-out 0.4s;
+border-radius: 10px;
+padding: 10px;  
+}
+.search{
+    float: right;
+    margin-right: 25px;
+    
+}
+.navbar input{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.navbar input:hover{
+    color: blue;
+}
